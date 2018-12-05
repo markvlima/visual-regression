@@ -4,6 +4,7 @@ describe('Jornada TIC', function () {
     it('TIC - Cloud Backup', function () {
 	cy.viewport(1440, 1300)
         cy.visit('https://tic.enesolucoes.com.br/cloud-backup')
+	cy.wait(10000)
 	cy.eyesOpen({
       	      appName: 'Cloud Backup',
 	      testName: 'Cloud Backup Page',
